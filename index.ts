@@ -21,13 +21,17 @@ console.log(tableau);
 interface Player{
     id: number,
     name: string,
-    jersey?: number
+    jersey?: number | string
 }
 let platini:Player = {
     id: 0,
     name: "Platini",
-    // jersey: 10
+    jersey: 10
 }
+
+console.log(typeof platini.jersey);
+
+
 
 
 // Les Classes
@@ -83,7 +87,7 @@ interface User {
 
 const user1:  User = {
     name: "Bern",
-    attributes: [30, "Funky"],
+    attributes: [30, "Funky"], 
     
 }
 
@@ -102,7 +106,7 @@ const user2:User = {
 console.log(user2);
 
 if (user2.role === Role.ADMIN) {
-    console.log("Admin: connexion spéciale");
+    console.log("Admin: connexion autorisée");
     
 } else {
     console.log("Vous n'êtes pas autorisé à vous connecter");

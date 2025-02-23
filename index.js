@@ -13,8 +13,9 @@ console.log(tableau);
 let platini = {
     id: 0,
     name: "Platini",
-    // jersey: 10
+    jersey: 10
 };
+console.log(typeof platini.jersey);
 // Les Classes
 class Singer {
     constructor(id, name, alive) {
@@ -60,7 +61,7 @@ const user2 = {
 };
 console.log(user2);
 if (user2.role === Role.ADMIN) {
-    console.log("Admin: connexion spéciale");
+    console.log("Admin: connexion autorisée");
 }
 else {
     console.log("Vous n'êtes pas autorisé à vous connecter");
