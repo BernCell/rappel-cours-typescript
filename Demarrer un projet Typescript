@@ -1,0 +1,6 @@
+Demarrer un projet Typescript
+
+pour créer un fichier tscinfig.json, on tape dans le terminal : tsc --init 
+ 
+pour voir les erreurs potentielles à chaque sauvegarde de fichiers typescript, 
+on fait un watch en tapant : tsc -w
